@@ -115,13 +115,13 @@ main {
 #skills ul {
     list-style-type: square;
     margin-left: 20px;
-    text-align: center; /* Centers the list items */
-    display: inline-block; /* Aligns the list properly */
+    text-align: center;
+    display: inline-block;
 }
 
 #skills ul li {
     display: inline-block;
-    margin: 5px 10px; /* Adds space between list items */
+    margin: 5px 10px; 
 }
 
 /* Skills Table Styling */
@@ -178,4 +178,65 @@ form button:hover {
     background-color: var(--accent-color);
     transform: scale(1.05);
     transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Footer Styling */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Keyframe for FadeIn Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        display: block;
+        text-align: left;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    header img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.3em;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    #contact form input, #contact form textarea {
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
 }
