@@ -30,8 +30,8 @@ body {
     background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
-    --primary-color: #0044cc;
-    --accent-color: #ff6600;
+    --primary-color: #b778e4;
+    --accent-color: #3605fd;
     --background-color: #f9f9f9;
     --text-color: #333;
     --font-size: 16px;
@@ -57,4 +57,33 @@ header img {
     display: block;
     margin-left: auto;
     margin-right: auto; 
+}
+
+/* Navigation Styling */
+nav {
+    background-color: var(--primary-color);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: var(--accent-color);
 }
