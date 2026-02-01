@@ -18,3 +18,25 @@
 10. Media Queries
 ================================ */
 
+/* Global Reset & Box Model */
+* {margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    --primary-color: #0044cc;
+    --accent-color: #ff6600;
+    --background-color: #f9f9f9;
+    --text-color: #333;
+    --font-size: 16px;
+    --card-padding: 20px;
+}
+
+
+
