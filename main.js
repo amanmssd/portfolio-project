@@ -40,3 +40,11 @@ function toggleExperienceSection() {
         experienceSection.style.display = 'none';
     }
 }
+
+
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const name = document.getElementById('name').value;
+    alert(`Thank you, ${name}, for your message!`);
+    document.querySelector('form').reset();
+});
