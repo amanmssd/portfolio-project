@@ -240,3 +240,10 @@ footer {
         font-size: 0.9em;
     }
 }
+
+/* DOM CODE */
+
+#skills table tr:hover {
+    background-color: #e5aff4;
+    cursor: pointer;
+}
